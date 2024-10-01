@@ -1,0 +1,63 @@
+.hi{
+  display: grid;
+  grid-template-columns: repeat(16, 100px);
+  grid-template-rows: repeat(16, 100px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.one{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: blue;
+}
+.two{
+  background-color: red;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.two2{
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.two3{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+}
+.two4{
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.two5{
+  background-color: blue;
+  grid-column-start: 5;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5 ;
+}
+.three{
+  background-color: black;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3 ;
+}
+.one1{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.one2{
+  background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
